@@ -29,7 +29,7 @@ switch(num){
                     let celsius = Number(prompt("Please enter any number to convert Fahrenheit to Celsius"))
 
                     let cal4 = celsius - 32
-                    let total2 = cal4 / 1.8
+                    let total2 = parseInt(cal4 / 1.8)
                     alert(total2 + " Celsius")
                     break;
 
